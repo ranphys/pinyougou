@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.style_red {
+    color: #c81623
+}
+
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 0.5px;
+    height: 12px;
+    background-color: #666666;
+    margin: 9px 15px 0;
+}
+
+.arrow_icon::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+
+/* 头部模块 */
+
+.header {
+    position: relative;
+    height: 106px;
+}
+
+.header .logo {
+    position: absolute;
+    top: 27px;
+    width: 171px;
+    height: 61px;
+}
+
+.header .logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png);
+    font-size: 0;
+}
+
+.search {
+    position: absolute;
+    top: 26px;
+    left: 347px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 70px;
+    left: 347px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 26px;
+    right: 64px;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #f7f7f7;
+    border: 1px solid #dfdfdf;
+}
+
+.shopcar::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    margin-left: 19px;
+    color: #b1191a;
+}
+
+.shopcar::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-right: 14px;
+}
+
+.count {
+    position: absolute;
+    left: 105px;
+    top: -5px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #e60012;
+    border-radius: 7px 7px 7px 0;
+    padding: 0 5px;
+}
+
+
+/* nav模块                                  */
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    float: left;
+    height: 45px;
+    width: 210px;
+    background-color: #b1191a;
+}
+
+.navitems {
+    float: left
+}
+
+.dropdown .dt {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.dropdown .dd {
+    height: 465px;
+    width: 100%;
+    margin-top: 2px;
+    background-color: #c81623;
+}
+
+.dropdown .dd ul li {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+    padding-left: 12px;
+}
+
+.dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.dropdown .dd ul li::after {
+    float: right;
+    margin-right: 11px;
+    color: #fff;
+    content: '\e920';
+    font-family: icomoon;
+    font-size: 14px;
+}
+
+.dropdown .dd ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+.navitems li {
+    float: left;
+}
+
+.navitems li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: #333;
+    font-size: 16px;
+    padding: 0 25px;
+}
+
+
+/* 底部模块 */
+
+.footer {
+    height: 418px;
+    padding-top: 30px;
+    background-color: #f5f5f5;
+    ;
+}
+
+.mod_service {
+    height: 80px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod_service li {
+    float: left;
+    height: 50px;
+    width: 240px;
+    padding-left: 35px;
+}
+
+.mod_service h5 {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 7px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+}
+
+.service_text h4 {
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.ervice_text p {
+    font-size: 12px;
+}
+
+.mod_help {
+    height: 188px;
+    padding-top: 22px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ededed;
+}
+
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+
+.mod_help dt {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 5px;
+}
+
+.copyright {
+    line-height: 20px;
+}

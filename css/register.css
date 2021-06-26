@@ -1,0 +1,143 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a
+}
+
+.logo {
+    padding-top: 16px;
+}
+
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+h3 {
+    padding-left: 11px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.login a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 55px auto;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    font-size: 14px;
+    color: #4c4c4c;
+    width: 85px;
+    text-align: right;
+}
+
+.reg_form .inp {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    font-size: 12px;
+    color: #df3033;
+}
+
+.error_icon {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.safe {
+    padding-left: 180px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+.safe i {
+    padding: 0 12px;
+    margin-right: 1px;
+    color: #fff;
+}
+
+.weak {
+    margin-left: 10px;
+    background-color: #de1111;
+}
+
+.medium {
+    background-color: #40b83f;
+}
+
+.strong {
+    background-color: #f79100;
+}
+
+.agree {
+    padding-left: 100px;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+.agree a {
+    font-size: 12px;
+    color: #1ba1e6;
+}
+
+.reg_sub {
+    margin-left: 110px;
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+}
+
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 5px;
+}
+
+.copyright {
+    line-height: 20px;
+    margin-bottom: 37px;
+}
